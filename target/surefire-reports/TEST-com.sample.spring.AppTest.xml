@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.596" errors="1" skipped="0" tests="1" name="com.sample.spring.AppTest">
+<testsuite failures="0" time="0.827" errors="1" skipped="0" tests="1" name="com.sample.spring.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
@@ -22,7 +22,7 @@
     <property name="basedir" value="/Users/kumar/Dropbox/nielsen_wp/testme"/>
     <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefirebooter6104444295400036529.jar"/>
+    <property name="surefire.real.class.path" value="/Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefirebooter4651737704927519799.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/cc/49nmwcnx23l5d0nmm7g2r_yw0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
-    <property name="sun.java.command" value="/Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefirebooter6104444295400036529.jar /Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefire2137686367197668878tmp /Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefire6044813268158670999tmp"/>
+    <property name="sun.java.command" value="/Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefirebooter4651737704927519799.jar /Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefire1199005907577613181tmp /Users/kumar/Dropbox/nielsen_wp/testme/target/surefire/surefire2718676704100842027tmp"/>
     <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="apple.awt.CToolkit"/>
@@ -65,7 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.319" classname="com.sample.spring.AppTest" name="testApp">
+  <testcase time="0.476" classname="com.sample.spring.AppTest" name="testApp">
     <error message="Error creating bean with name &apos;com.sample.spring.AppTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.sample.spring.AppB com.sample.spring.AppTest.appB; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.sample.spring.AppB] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}" type="org.springframework.beans.factory.BeanCreationException">org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.sample.spring.AppTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.sample.spring.AppB com.sample.spring.AppTest.appB; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.sample.spring.AppB] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
@@ -118,14 +118,14 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No m
 @HL-------------------------------------------------------
 @SLRunning com.sample.spring.AppTest
 </system-out>
-    <system-err>Apr 27, 2012 2:32:04 PM org.springframework.test.context.TestContextManager retrieveTestExecutionListeners
+    <system-err>Apr 27, 2012 3:37:50 PM org.springframework.test.context.TestContextManager retrieveTestExecutionListeners
 INFO: @TestExecutionListeners is not present for class [class com.sample.spring.AppTest]: using defaults.
-Apr 27, 2012 2:32:04 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
-INFO: Refreshing org.springframework.context.support.GenericApplicationContext@1de4f7c2: startup date [Fri Apr 27 14:32:04 CDT 2012]; root of context hierarchy
-Apr 27, 2012 2:32:04 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
-INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7d95d4fe: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
-Apr 27, 2012 2:32:05 PM org.springframework.test.context.TestContextManager prepareTestInstance
-SEVERE: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7f033a6f] to prepare test instance [com.sample.spring.AppTest@2cf18e8e]
+Apr 27, 2012 3:37:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@2345f0e3: startup date [Fri Apr 27 15:37:50 CDT 2012]; root of context hierarchy
+Apr 27, 2012 3:37:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@77d2b01b: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+Apr 27, 2012 3:37:50 PM org.springframework.test.context.TestContextManager prepareTestInstance
+SEVERE: Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2cf18e8e] to prepare test instance [com.sample.spring.AppTest@26c623af]
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name &apos;com.sample.spring.AppTest&apos;: Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.sample.spring.AppB com.sample.spring.AppTest.appB; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.sample.spring.AppB] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)

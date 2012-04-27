@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.sample.spring.AppTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.596 sec <<< FAILURE!
-testApp(com.sample.spring.AppTest)  Time elapsed: 0.318 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.826 sec <<< FAILURE!
+testApp(com.sample.spring.AppTest)  Time elapsed: 0.476 sec  <<< ERROR!
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.sample.spring.AppTest': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: com.sample.spring.AppB com.sample.spring.AppTest.appB; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No matching bean of type [com.sample.spring.AppB] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:287)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1106)
